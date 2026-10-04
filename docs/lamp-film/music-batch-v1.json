@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "lifemovie_lamp_20261003_v1",
+  "tracks": [
+    {
+      "id": "lamp_piano_cello_01",
+      "title": "留一盏灯 · 平凡的一生",
+      "category": "neutral",
+      "request": {
+        "model": "acestep-v15-xl-sft",
+        "prompt": "An intimate nostalgic film score for a 90-second story of an ordinary Chinese couple growing old together in a small town. Tender felt upright piano carries a simple memorable four-note melody, gentle solo cello answers, occasional warm acoustic guitar harmonics. Human, imperfect and close, natural room resonance, restrained dynamics, no epic gestures. Begin with curious delicate piano, gradually add warmth for marriage and raising a child, let the middle section breathe with a little bittersweet harmonic tension, become sparse and fragile around the last third for illness and an empty chair, then return to the opening melody with quiet hope for a grandchild coming home. Resolve gently with a natural sustained final piano chord. Slow lyrical phrasing, soft attacks, plenty of silence between phrases, warm natural acoustic recording, clean stereo. Instrumental only, no singing, humming, speech, choir, percussion or sound effects.",
+        "lyrics": "[Instrumental]",
+        "thinking": true,
+        "vocal_language": "unknown",
+        "bpm": 68,
+        "key_scale": "D Major",
+        "time_signature": "4",
+        "audio_duration": 90,
+        "batch_size": 1,
+        "inference_steps": 50,
+        "guidance_scale": 7.0,
+        "use_random_seed": false,
+        "seed": 2026100301,
+        "audio_format": "wav",
+        "use_cot_caption": false,
+        "use_cot_language": false,
+        "lm_backend": "pt",
+        "lm_model_path": "acestep-5Hz-lm-4B"
+      }
+    }
+  ]
+}

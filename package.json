@@ -1,0 +1,12 @@
+{
+  "name": "life-movie",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "这一页，才开始 · 可交互的人生相片集",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

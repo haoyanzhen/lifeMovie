@@ -1,0 +1,9 @@
+{
+  "source_sha256": "7af3a50a991addd0edb1298af99060923c589647c09467d06dc76d43b0b8faa4",
+  "runtime_file": "assets/lamp-film/audio/lamp-score-v1.mp3",
+  "runtime_sha256": "89fd810df35c85577757ac1b794b00d6a11be86fd0a2c0953ebc4ec8c518ea81",
+  "transform": "ffmpeg libmp3lame 192k, no trimming, gain, padding or normalization; webpage applies volume envelope only",
+  "source_duration_seconds": 90,
+  "browser_validation": "Google Chrome headless with --disable-audio-output (host audio renderer unavailable). Actual decoding, playback state and audio/video clocks tested; no subjective listening claim.",
+  "listening_review": "pending"
+}

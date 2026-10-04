@@ -1,0 +1,19 @@
+# Generated builds, renders and temporary files
+/dist/
+/output/
+/tmp/
+node_modules/
+*.log
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Local audio-generation task records and intermediate source audio
+/assets/lamp-film/audio/source-v1/

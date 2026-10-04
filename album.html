@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeeade">
+  <meta name="description" content="从童年到八十岁，姜淑梅与那些陪她走过岁月的人。依据公开讲述创作的人生相片集。">
+  <title>一生，又一生 · 人生相片集</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="preload" as="image" href="assets/desk.webp">
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <div class="app-shell">
+    <header class="masthead">
+      <a class="wordmark" href="#page-1" aria-label="人生相片集，回到封面"><span aria-hidden="true">◒</span>人生相片集</a>
+      <div class="header-actions">
+        <button id="sound" class="icon-button" aria-pressed="false" aria-label="开启声音" title="开启声音"><span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span></button>
+        <button id="about" class="text-button">来源与创作</button>
+      </div>
+    </header>
+    <main id="album" aria-label="一生，又一生，姜淑梅的人生相片集">
+      <div class="stage" id="stage">
+        <img id="scene-image" class="scene-image" src="assets/desk.webp" alt="艺术重构：银发老人在窗边写字" width="1536" height="1024" fetchpriority="high">
+        <img id="outgoing-image" class="outgoing-image" alt="" aria-hidden="true" hidden>
+        <div class="cover-shade" aria-hidden="true"></div>
+        <div class="cover-title" id="cover-title"><p>姜淑梅</p><h1>一生，<br>又一生。</h1></div>
+        <div class="memory-layer" id="memory-layer" hidden aria-label="前半生的画面重新出现在纸上">
+          <figure><img src="assets/soup.webp" alt="回忆：接过那碗汤" loading="lazy"></figure>
+          <figure><img src="assets/snow.webp" alt="回忆：三个人走过雪地" loading="lazy"></figure>
+        </div>
+        <div class="echo-layer" id="echo-layer" hidden><img src="assets/childhood.webp" alt="童年时穿着红褂的小女孩" loading="lazy"></div>
+        <button id="scene-action" class="scene-action" hidden></button>
+        <div id="image-fallback" class="image-fallback" hidden>画面未能载入。<button id="retry-image">重新载入</button></div>
+      </div>
+      <div class="narrative" aria-live="polite" aria-atomic="true">
+        <p class="time-label" id="time-label">一段人生</p>
+        <p class="story-text" id="story-text">从童年，到八十岁。</p>
+      </div>
+      <footer class="album-footer">
+        <button id="previous" class="arrow-button" aria-label="上一页" disabled>←</button>
+        <div class="progress"><nav id="chapters" aria-label="选择相片页"></nav><span id="page-number">01 / 13</span></div>
+        <button id="next" class="arrow-button" aria-label="下一页">→</button>
+      </footer>
+    </main>
+    <noscript><p>请开启 JavaScript 以翻阅相片集。<a href="docs/research.md">故事来源</a></p></noscript>
+  </div>
+  <dialog id="source-dialog" aria-labelledby="source-title">
+    <div class="dialog-body">
+      <button id="close-dialog" class="close-button" aria-label="关闭来源与创作">×</button>
+      <h2 id="source-title">一生，又一生</h2>
+      <p>姜淑梅从童年走到晚年，经历养育、迁徙与失去，随后重新学习。十三幅画面，选取她与家人公开讲述中的片段。</p>
+      <div class="source-links">
+        <a href="https://www.yixi.tv/h5/speech/299/" target="_blank" rel="noopener noreferrer">一席 · 姜淑梅本人讲述 <span>↗</span></a>
+        <a href="https://www.xinhuanet.com/politics/2019-10/08/c_1125076631.htm" target="_blank" rel="noopener noreferrer">新华每日电讯 · 2019 年报道 <span>↗</span></a>
+        <a href="https://www.thepaper.cn/newsDetail_forward_4378500" target="_blank" rel="noopener noreferrer">澎湃新闻 · 2019 年人物采访 <span>↗</span></a>
+      </div>
+      <p>童年求学经历在来源中说法不一：本人概括为没念过书，采访记载曾短暂入学。本作采用“没能继续上学”。年龄沿用公开讲述中的口径，不将虚岁直接换算成年份。</p>
+      <p>画面均为 AI 艺术重构，并非真实照片、住宅或手稿。红褂女孩的构图是想象，晚年画过童年的自己有报道依据。纸上重现旧画面的效果，是创作性的记忆蒙太奇。</p>
+      <p>我们没有补写她的结局。“等我老了”来自 2019 年采访。声音为程序合成，默认关闭。</p>
+    </div>
+  </dialog>
+  <script src="app.js?v=2" defer></script>
+</body>
+</html>

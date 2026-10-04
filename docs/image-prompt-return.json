@@ -1,0 +1,9 @@
+{
+  "mode": "built-in image_gen edit",
+  "prompt": "Use case: precise-object-edit / illustration-story. Image 1 (old hands painting at table) is the EDIT TARGET. Image 2 (young girl in red jacket at a courtyard door) is a SUBJECT REFERENCE for the little figure on the paper only. Preserve Image 1's entire composition, old wrinkled hands, brush, indigo sleeves, wooden table, light, green window, enamel mug and painterly medium. Change ONLY the artwork on the paper: remove the flower painting and replace it with a simple charming amateur folk-art painting of the small Chinese girl from Image 2, wearing a brick-red cotton jacket and black trousers with two small black pigtails, standing by an old green door in warm sunshine. This must be a flat, naive, beginner watercolor illustration physically painted on the paper, not a photoreal picture pasted in. The old woman's brush is gently adding red to the girl's jacket. The girl on paper is large enough to be visible at mobile sizes and centered on the sheet. The emotional meaning: an eighty-year-old woman paints her childhood self. Keep hands anatomically natural. No words, no lettering, no signature, no watermark. Output same wide 1536x1024 landscape.",
+  "references": [
+    "assets/originals/paint.png",
+    "assets/originals/childhood.png"
+  ],
+  "output": "assets/return.webp"
+}
